@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	font-family: Arial;
+	font-weight: lighter;
+}
+
+
+.page{
+	width: 100%;
+	background-color: #f1f1f1;
+	position: absolute;
+}
+
+.nav_bar{
+	width: 100%; height: 50px;
+	position: fixed;
+	background-color: #FFF;
+	position: fixed;
+}
+
+.logo{
+	margin: 0 0 0 30px;
+	display: inline-block;
+	position: absolute;
+}
+
+.logo img{
+	width: 72px;
+}
+
+.nav_menu_image{
+	display: inline-block;
+	margin-left: 120px;
+}
+
+.nav_menu_image img{
+	width: 15px;
+}
+
+.menu_arrow{
+	font-size: 8pt;
+	margin-bottom: 5px;
+}
+
+.app_menu{
+	border: 0;
+	background-color: transparent;
+	height: 30px;
+	width: 50px;
+	position: absolute;
+	display: inline-block;
+}
+
+.nav_menu_image > button:hover{
+	border: 1px solid grey;
+	background-color: buttonface;
+}
+
+.nav_bar_input{
+	width: 100%;
+	display: inline-block;
+	margin: -15px 0 0 250px;
+}
+
+.search_bar{
+	height: 20px; width: 550px;
+	margin-top: -5px;
+}
+
+.search_bar_submit{
+	height: 25px; width: 50px;
+	margin: 0 0 0 -5px;
+}
+.search_bar_submit > img{
+	width:15px;
+}
+
+.page_container{
+	width: 79%;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.left_block{
+	width: 800px;
+	display: inline-block;
+	float: left;
+
+}
+
+.right_block{
+	width: 400px;
+	display: inline-block;
+	float: right;
+	background-color: #FFF;
+}
+
+.video_information{
+	margin: 10px 10px 10px 0;
+	width: 100%;
+	background-color: #FFF;
+	border: 0.5px solid grey;
+	padding: 20px;
+}
+
+.video_information > img{
+	width: 50px; height: 45px;
+	float: left;
+	background-color: white;
+	margin-top: 10px;
+}
+
+.vid_info_title_and_description{
+}
+
+.user_name{
+	margin: 10px;
+	font-size: 9pt;
+}
+
+.user_name > button{
+	background-color: red;
+	border: 0;
+	color: #FFF;
+	padding: 5px;
+}
+
+.user_name > button > img{
+	width: 20px;
+	margin-right: 10px
+}
+
+#views{
+	float:right;
+	color: grey;
+}
+
+#line_break_short{
+	background-color: #5eacde;
+	width: 180px; height: 2px;
+	float: right;
+	clear:both;
+	margin-top: 13px;
+}
+
+#line_break_thin{
+	width: 100%; height: 1px;
+	margin: 10px auto 0 auto;
+	background-color: #DDD;
+}
+.suggested_videos{
+	float: left;
+	display: inline-block;
+}
+.suggested_video_thumbnail{
+	float: left;
+	display: inline-block;
+}
+.suggested_video_thumbnail > img{
+	height: 100px;
+}
+
+.suggested_video_info{
+	margin-left: 5px;
+	display: inline-block;
+	line-height: 0.95;
+}
+
+.song_title{
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.uploader{
+	font-size: 8pt;
+	color: grey;
+}
+
+.video_details{
+	background-color: #FFF;
+	margin-top: 10px;
+	width: 825px;
+	padding: 15px  0 0 15px;
+}
+
+.video_details_upload_date{
+	font-weight: bold;
+	font-size: 10pt;
+	color:#222;
+}
+.further_video_details{
+	font-size: 10pt;
+	color:#222;
+}
+
+#details_line_break{
+	width: 98%; height:1px;
+	background-color: #CCC;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+#show_more{
+	text-align: center;
+	font-size: 8pt;
+	text-transform: uppercase;
+	color: #666;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.comments{
+	width: 840px;
+	background-color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.comments_title{
+	padding: 20px;
+	text-transform: uppercase;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #666;
+}
+
+.user_comment_profile_pic{
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.user_comment_profile_pic > img{
+	width: 60px;
+}
+
+.comment_input{
+	display: inline-block;
+	border: 1px solid #555;
+	width: 500px; height: 60px;
+	margin-left: 30px;
+	color: #666;
+}
+
+#filter_comments{
+	margin-left: 20px;
+	font-size: 8pt;
+	padding: 7px 10px 7px 10px;
+	margin: 10px;
+}
+
+.no_comments{
+	text-align: center;
+	color: #666;
+	padding: 30px;
+}
